@@ -1,5 +1,7 @@
+// SPDX-License-Identifier: MIT
+// Token ERC20
+
 pragma solidity ^0.8.2;
-SPDX-License-Identifier: MIT
 
 contract Token {
     mapping(address => uint) public balances;
